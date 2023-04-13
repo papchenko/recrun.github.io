@@ -1,0 +1,78 @@
+:root {
+    --color1: #fa824c;
+    --color2: #2e3532;
+    --color3: #8b9eb7;
+    --color4: #04a777;
+    --color5: #0a8754;
+    --color6: #333745;
+    --color7: #1789fc;
+    --color8: #f75c03;
+    --color9: #dcdcdd;
+    --color10: #f7d002;
+    --color11: #018e42;
+    --color12: #559cad;
+    --color13: #fb4d3d;
+    --color14: #373737;
+    --color15: #ff9f1c;
+    --color16: #f71735;
+  }
+
+.main__page {
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 40px 0px 40px;
+}
+.main__title {
+    padding-top: 20px;
+    font-size: 38px;
+    line-height: 125%;
+    color: var(--color15);
+    text-align: center;
+}
+.main__text {
+    padding: 40px 5px 0px 5px;
+    font-size: 26px;
+    line-height: 125%;
+    color: var(--color9);
+    text-align: center;
+}
+.main-slide {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-slide img {
+    width: 52px;
+    height: 52px;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+.page__container {
+}
+.run1 {
+}
+.run1__name {
+}
+.run1__date {
+}
+.run1__distance {
+}
+.run1__pace {
+}
+.run1__time {
+}
+.run1__slide-image {
+}
+.image {
+}
+.run1__place {
+}
+.run1__description {
+}
