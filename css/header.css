@@ -33,7 +33,7 @@
 .header {
     background-color: var(--color8);
     left: 0;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     padding-right: 72px;
     position: fixed;
     width: 100%;
@@ -93,9 +93,9 @@
 
 #burger-menu span::before {
   content: "menu";
-  font-size: 25px;
+  font-size: 26px;
   color: #fafafa;
-  margin-top: -11px;
+  margin-top: -7px;
 }
 
 #burger-menu.close span:before {
@@ -141,32 +141,32 @@
 
 /* mobile navigations */
 .system-mode {
-  padding: 23px 0px 0px 20px;
-  margin-top: 10px;
+  padding: 23px 0px 0px 21px;
+  margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/system-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 22px;
 }
 .friends-mode {
-  padding: 23px 0px 0px 20px;
-  margin-top: 10px;
+  padding: 23px 0px 0px 21px;
+  margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/friends-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 22px;
 }
 .location-mode {
-  padding: 23px 0px 0px 20px;
-  margin-top: 10px;
+  padding: 23px 0px 0px 21px;
+  margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/location-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 22px;
 }
 .vibro-mode {
-  padding: 24px 0px 0px 20px;
-  margin-top: 10px;
+  padding: 24px 0px 0px 21px;
+  margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/vibro-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 22px;
 }
 @media (min-width: 768.98px) {
   .only-mobile {
