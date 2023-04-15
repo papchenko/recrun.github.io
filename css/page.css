@@ -20,6 +20,7 @@
 .main__page {
     height: 100vh;
     padding-top: 60px;
+    background: url("src/1.jpg") no-repeat;
 }
 .main__title {
     padding-top: 60px;
