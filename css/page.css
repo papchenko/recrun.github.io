@@ -24,14 +24,14 @@
 }
 .main__title {
     padding-top: 20px;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 125%;
-    color: var(--color15);
+    color: var(--color8);
     text-align: center;
 }
 .main__text {
-    padding: 40px 5px 0px 5px;
-    font-size: 26px;
+    padding: 20px 5px 0px 5px;
+    font-size: 18px;
     line-height: 125%;
     color: var(--color9);
     text-align: center;
