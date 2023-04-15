@@ -95,7 +95,7 @@
   content: "menu";
   font-size: 26px;
   color: #fafafa;
-  margin-top: -5px;
+  margin-top: -10px;
 }
 
 #burger-menu.close span:before {
@@ -142,31 +142,31 @@
 /* mobile navigations */
 .system-mode {
   padding: 24px 0px 0px 20px;
-  margin-top: 14px;
+  margin-top: 17px;
   display: flex;
   background: url("../src/front/icons/header/system-mode.svg") 0 0 no-repeat;
   background-size: 21px;
 }
 .friends-mode {
   padding: 24px 0px 0px 20px;
-  margin-top: 14px;
+  margin-top: 17px;
   display: flex;
   background: url("../src/front/icons/header/friends-mode.svg") 0 0 no-repeat;
   background-size: 21px;
 }
 .location-mode {
   padding: 24px 0px 0px 20px;
-  margin-top: 14px;
+  margin-top: 17px;
   display: flex;
   background: url("../src/front/icons/header/location-mode.svg") 0 0 no-repeat;
   background-size: 21px;
 }
 .vibro-mode {
   padding: 24px 0px 0px 20px;
-  margin-top: 14px;
+  margin-top: 17px;
   display: flex;
   background: url("../src/front/icons/header/vibro-mode.svg") 0 0 no-repeat;
-  background-size: 21px;
+  background-size: 22px;
 }
 @media (min-width: 768.98px) {
   .only-mobile {
