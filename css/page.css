@@ -20,18 +20,18 @@
 .main__page {
     width: 100vw;
     height: 100vh;
-    padding: 100px 40px 0px 40px;
+    padding-top: 60px;
 }
 .main__title {
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 125%;
     color: var(--color8);
     text-align: center;
 }
 .main__text {
-    padding: 20px 5px 0px 5px;
-    font-size: 18px;
+    padding: 20px 20px 0px 20px;
+    font-size: 16px;
     line-height: 125%;
     color: var(--color9);
     text-align: center;
