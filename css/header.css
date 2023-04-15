@@ -141,32 +141,32 @@
 
 /* mobile navigations */
 .system-mode {
-  padding: 23px 0px 0px 21px;
+  padding: 23px 0px 0px 20px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/system-mode.svg") 0 0 no-repeat;
   background-size: 21px;
 }
 .friends-mode {
-  padding: 22px 0px 0px 20px;
+  padding: 23px 0px 0px 20px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/friends-mode.svg") 0 0 no-repeat;
   background-size: 21px;
 }
 .location-mode {
-  padding: 21px 0px 0px 19px;
+  padding: 23px 0px 0px 20px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/location-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 21px;
 }
 .vibro-mode {
-  padding: 21px 0px 0px 19px;
+  padding: 23px 0px 0px 20px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/vibro-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 21px;
 }
 @media (min-width: 768.98px) {
   .only-mobile {
