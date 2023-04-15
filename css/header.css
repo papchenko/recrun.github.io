@@ -155,18 +155,18 @@
   background-size: 22px;
 }
 .location-mode {
-  padding: 21px 0px 0px 19px;
+  padding: 20px 0px 0px 17px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/location-mode.svg") 0 0 no-repeat;
-  background-size: 20px;
+  background-size: 18px;
 }
 .vibro-mode {
-  padding: 21px 0px 0px 18px;
+  padding: 20px 0px 0px 17px;
   margin-top: 14px;
   display: flex;
   background: url("../src/front/icons/header/vibro-mode.svg") 0 0 no-repeat;
-  background-size: 19px;
+  background-size: 18px;
 }
 @media (min-width: 768.98px) {
   .only-mobile {
