@@ -21,11 +21,7 @@
 .main__page {
     width: 100vw;
     height: 100vh;
-<<<<<<< HEAD
-=======
     padding-top: 60px;
-    background: url("src/1.jpg") 100 100 no-repeat;
->>>>>>> 858fb491f4e19080f53876aa48c767eacb97f93e
 }
 .main__title {
     font-family: "Play", sans-serif;
