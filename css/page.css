@@ -17,16 +17,20 @@
     --color16: #f71735;
   }
 
+
 .main__page {
+    width: 100vw;
     height: 100vh;
-    padding-top: 60px;
 }
 .main__title {
     padding-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 30px;
     line-height: 125%;
     color: var(--color8);
     text-align: center;
+    z-index: 2;
 }
 .main__text {
     padding: 20px 30px 0px 30px;
@@ -34,6 +38,7 @@
     line-height: 125%;
     color: var(--color9);
     text-align: center;
+    z-index: 2;
 }
 .main-slide {
     display: flex;
