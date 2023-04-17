@@ -88,7 +88,9 @@
 	flex-direction: column;
 } */
 /* ------------------ */
-
+.run1__name {
+    color: #fff;
+}
 
 .full-screen {
 	position: relative;
@@ -110,23 +112,26 @@
 }
 .full-screen__title {
     font-family: "Play", sans-serif;
-    padding-top: 60px;
+    font-weight: 700;
+    padding-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 125%;
     color: var(--color8);
     text-align: center;
 }
 .full-screen__text {
-    padding: 20px 30px 0px 30px;
-    font-size: 24px;
+    /* font-family: "Play", sans-serif; */
+    font-weight: 500;
+    padding: 5px 30px 0px 30px;
+    font-size: 16px;
     line-height: 125%;
     color: var(--color9);
     text-align: center;
 }
 .full-screen__video {
-	position: fixed;
+	position:absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
