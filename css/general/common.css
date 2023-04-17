@@ -16,13 +16,11 @@
   --color15: #ff9f1c;
   --color16: #f71735;
 }
-
 /* tooltip */
 .tooltip {
   position: relative;
   display: inline-block;
 }
-
 .tooltip .tooltiptext {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.363);
@@ -35,19 +33,17 @@
   margin-left: -65px;
   margin-top: 3px;
   position: absolute;
-  z-index: 1000000;
+  z-index: 11;
   line-height: 1.25;
 }
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
 /* popups */
-#popup{
+#popup {
   display: none;
 }
-.popup-container{
+.popup-container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -55,23 +51,26 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(96 95 127 / 35%);
-  position: absolute;
+  position: fixed;
+  overflow: hidden;
   top: 0;
   left: 0;
+  z-index: 11;
 }
-.popup{
-  /* background-color: #ffffff; */
+.popup {
   background-color: var(--color9);
   padding: 20px 30px;
-  width: 80%;
-  border-radius: 15px;
+  width: 90%;
+  height: 90%;
+  border-radius: 18px;
 }
-.close-popup{
+.close-popup {
   display: flex;
   justify-content: flex-end;
+  overflow: hidden;
 }
-.close-popup a{
-  font-size: 1.2rem;
+.close-popup a {
+  font-size: 18px;
   background-color: var(--color1);
   color: #fff;
   padding: 10px 15px;
@@ -80,16 +79,23 @@
   border-radius: 10px;
   display: inline-block;
 }
-.popup > h2{
+.popup > h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 300px;
   text-transform: uppercase;
   font-size: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
-.popup > p{
+.popup > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-size: 18px;
   margin-bottom: 10px;
 }
-.popup-more{
+.popup-more {
   display: inline-block;
   text-decoration: none;
   border: 2px solid var(--color1);
