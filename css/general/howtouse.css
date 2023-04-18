@@ -66,3 +66,7 @@ span {
     color: #018e42;
     font-weight: 700;
 }
+.wrapper__howtouse {
+    width: 100vw;
+    height: 100vh;
+}
