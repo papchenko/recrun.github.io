@@ -147,6 +147,9 @@
     color: var(--color8);
     text-align: center;
 }
+.run__date-date p {
+    font-size: 15px;
+}
 .run__slide-image {
     display: flex;
     justify-content: center;
