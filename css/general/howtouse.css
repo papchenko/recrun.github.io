@@ -1,4 +1,3 @@
-@import url("reset.css");
 :root {
     --dark-main: #001219;
     --dark-main2: #2f3e46;
@@ -61,6 +60,7 @@ a {
     border: 1px solid #dcdcdd;
     border-radius: 20px;
     padding: 5px 2px;
+    text-decoration: none;
 }
 span {
     color: #018e42;
