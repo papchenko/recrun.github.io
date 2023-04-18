@@ -36,6 +36,7 @@
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     background-color: var(--dark-main3);
+    color: #fff;
   }
   .wrapper {
     min-height: 100%;
