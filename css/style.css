@@ -54,3 +54,14 @@
     margin: 0 auto;
     max-width: 1140px;
   }
+
+  @media (min-width: 768.98px) {
+    .only-mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .only-pc {
+      display: none;
+    }
+  }

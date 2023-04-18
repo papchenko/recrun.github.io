@@ -17,20 +17,20 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="only-mobile">
         <header class="header">
-
             <div class="header__container">
-                <div class="system-mode only-mobile" id="clickLink"></div>
-                <div class="friends-mode tooltip only-mobile">
+                <div class="system-mode" id="clickLink"></div>
+                <div class="friends-mode tooltip">
                     <span class="tooltiptext">Function of finding friends is not yet available</span>
                 </div>
-                <div class="location-mode tooltip only-mobile">
+                <div class="location-mode tooltip">
                     <span class="tooltiptext">Your activity cannot be recorded yet</span>
                 </div>
-                <div class="vibro-mode tooltip only-mobile">
+                <div class="vibro-mode tooltip">
                     <span class="tooltiptext">Mobile version of this site automatically use vibration mode</span>
                 </div>
-                <div id="burger-menu" class="only-mobile">
+                <div id="burger-menu">
                     <span></span>
                 </div>
                 <div id="menu">
@@ -139,6 +139,26 @@
                 </div>
             </div>
         </footer>
+    </div>
+    <div class="only-pc">
+        <section class="section-pc">
+            <h2>This app running only on mobile devices</h2>
+            <p>
+                To open the mobile version of the site from a computer,
+                you need to open Google Chrome and go to the desired URL,
+                then right-click anywhere on the screen or (Ctrl + Shift + J) and select "View code" from the menu.
+                In the upper right corner, click on the "Mobile phone" icon or (Ctrl + Shift + M)
+            </p>
+            <div class="section-pc__badges">
+                <a href="#0">
+                    <img src="src/front/icons/pc_icon/appstore.png" alt="">
+                </a>
+                <a href="#0">
+                    <img src="src/front/icons/pc_icon/google-play.png" alt="">
+                </a>
+            </div>
+        </section>
+    </div>
     </div>
 
     <script type="module" src="js/app.js"></script>
