@@ -51,7 +51,8 @@ p {
 a {
     display: block;
     max-width: 70px;
-    margin: 10px auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
