@@ -32,26 +32,26 @@ body {
     color: #fff;
 }
 h1 {
-    padding-top: 100px;
+    padding-top: 40px;
     text-align: center;
-    font-size: 28px;
+    font-size: 23px;
 }
 h2 {
-    padding: 10px 40px;
+    padding: 10px 20px;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     color: var(--color8);
 }
 p {
-    padding: 40px 40px;
+    padding: 20px 20px;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 135%;
 }
 a {
     display: block;
     max-width: 70px;
-    margin: 0 auto;
+    margin: 10px auto;
     justify-content: center;
     align-items: center;
     text-align: center;
