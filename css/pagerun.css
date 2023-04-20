@@ -17,7 +17,17 @@
     --color16: #f71735;
   }
 
-.page__run {
-    width: 100vw;
-    height: 100vh;
+.page__rec {
+  width: 100vw;
+  height: 100vh;
+}
+.rec__container {
+}
+.rec__body {
+}
+.rec__label {
+}
+.rec__map {
+}
+.rec__button {
 }
