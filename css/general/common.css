@@ -105,6 +105,78 @@
   border-radius: 20px;
   margin: 10px 0px;
 }
+.lng {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lng p {
+  font-size: 26px;
+  color: #333745;
+}
+.lng__img img {
+  width: 44px;
+}
+.toggle {
+  --toggle-height: 32px;
+  --toggle-bar-color: #707070;
+  --toggle-active-color: #00bf23;
+  --toggle-handle-color: #ffffff;
+}
+.toggle > input[type="checkbox"] {
+  display:none;
+}
+.toggle__bar {
+  display: flex;
+  align-items: center;
+  height: 12px; /* default */
+  min-height: var(--toggle-height);
+  aspect-ratio: 1.75 / 1;
+  border-radius: 25% / 50%;
+  background-color: var(--toggle-bar-color);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.toggle__handle {
+  display:block;
+  height: inherit;
+  min-height: var(--toggle-height);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  transform: scale(0.8);
+  background-color: var(--toggle-handle-color);
+  box-shadow: 1px 1px 15px -2px rgba(0,0,0,0.75);
+  transition: all 0.1s ease-in-out;
+}
+.toggle > input[type="checkbox"]:checked + .toggle__bar {
+  background-color: 
+    var(--toggle-active-color);
+}
+.toggle > input[type="checkbox"]:checked + .toggle__bar > .toggle__handle {
+  box-shadow: 
+    -1px 1px 15px -2px rgba(0,0,0,0.75);
+  transform: translateX(74%) scale(0.8);
+}
+.card > h1 {
+  padding-bottom:0.8em;
+  border-bottom:1px dashed grey;
+  margin-bottom:1em;
+  font-size:1.6em;
+  font-weight:700;
+}
+.card h1 {
+  color: #333745;
+}
+.card__list {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 26px;
+  color: #333745;
+}
 /* popups */
 
 /* PC version */

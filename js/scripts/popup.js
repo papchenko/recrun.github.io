@@ -9,9 +9,6 @@ function popup() {
     closePopup.addEventListener('click', ()=>{
         popup.style.display = 'none';
     });
-    popup.addEventListener('click', ()=>{
-        popup.style.display = 'none';
-    });
 }
 
 export {
