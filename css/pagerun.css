@@ -22,9 +22,16 @@
   padding-bottom: 80px;
 }
 .rec__label {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
-  font-size: 22px;
+  color: var(--color8);
+  font-size: 32px;
+  font-weight: 500;
+}
+.rec__text {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 .rec__map {
   display: flex;
