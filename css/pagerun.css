@@ -17,17 +17,37 @@
     --color16: #f71735;
   }
 
-.page__rec {
-  width: 100vw;
-  height: 100vh;
-}
-.rec__container {
-}
 .rec__body {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .rec__label {
+  padding: 40px;
+  text-align: center;
+  font-size: 22px;
 }
 .rec__map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.rec__map iframe {
+  border-radius: 10px;
+  width: 350px; 
+  height: 350px;
 }
 .rec__button {
+  padding: 12px;
+  margin: 15px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 200px;
+  background-color: #018e42;
+  border-radius: 8px;
+}
+.rec__button img{
+  width: 30px;
 }

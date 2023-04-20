@@ -39,6 +39,24 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+.tooltiptext-rec {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px 4px;
+  width: 160px;
+  margin-left: -75px;
+  margin-top: 34px;
+  position: absolute;
+  z-index: 11;
+  line-height: 1.25;
+}
+.tooltip:hover .tooltiptext-rec {
+  visibility: visible;
+}
 /* popups */
 #popup {
   display: none;
