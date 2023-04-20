@@ -1,0 +1,23 @@
+:root {
+    --color1: #fa824c;
+    --color2: #2e3532;
+    --color3: #8b9eb7;
+    --color4: #04a777;
+    --color5: #0a8754;
+    --color6: #333745;
+    --color7: #1789fc;
+    --color8: #f75c03;
+    --color9: #dcdcdd;
+    --color10: #f7d002;
+    --color11: #018e42;
+    --color12: #559cad;
+    --color13: #fb4d3d;
+    --color14: #373737;
+    --color15: #ff9f1c;
+    --color16: #f71735;
+  }
+
+.page__run {
+    width: 100vw;
+    height: 100vh;
+}

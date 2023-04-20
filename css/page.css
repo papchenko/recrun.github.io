@@ -150,16 +150,6 @@
 .run__date-date p {
     font-size: 15px;
 }
-.run__slide-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.run__slide-image img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 28px;
-}
 .run__rate {
     display: flex;
     flex-direction: column;
@@ -185,3 +175,22 @@
     background-size: 22px;
 }
 /* records */
+/* swiper */
+.image-slider {
+    padding: 10px 10px 20px 10px;
+}
+.image-slider__image {
+    padding: 0px 0px 100% 0px;
+    overflow: hidden;
+    position: relative;
+}
+.image-slider__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 23px;
+}
+/* swiper */

@@ -11,3 +11,6 @@ ssMoveTo();
 // popup
 import { popup } from "./scripts/popup.js";
 popup();
+//  swiper-tune
+import { swiperTune } from "./scripts/swiper-tune.js";
+swiperTune();

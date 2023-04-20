@@ -52,16 +52,17 @@
     flex-wrap: wrap;
     align-items: center;
     row-gap: .3125rem;
-    column-gap: 1.5rem;
+    column-gap: 24px;
 }
 .menu__link {
-    font-size: 1.0625rem;
+    font-size: 12px;
     font-weight: 500;
     color: #fff;
-    font-family: Poppins, sans-serif;
+    font-family: "Play", sans-serif;
     display: inline-block;
     line-height: 1.5;
     position: relative;
+    text-transform: uppercase;
 }
 @media (max-width: 767.98px) {
   .header__menu {

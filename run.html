@@ -12,9 +12,8 @@
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#0e0707">
     
-    <link rel="stylesheet" href="css/general/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>RecRun - Record your RUN!</title>
+    <title>Record RUN</title>
 </head>
 <body>
     <div class="wrapper">
@@ -37,7 +36,7 @@
                 </div>
                 <div id="menu">
                     <li class="menu__item">
-                        <a href="run.html" class="menu__link">Run</a>
+                        <a href="#" class="menu__link">Run</a>
                     </li>
                     <li class="menu__item">
                         <a href="#" class="menu__link">Swim</a>
@@ -78,84 +77,8 @@
             <!-- popups -->
         </header>
 
-        <main class="page">
-                <div class="hello-page">
-                    <div class="hello-page__body">
-                        <div class="hello-page__title">RecRun - Record your Run !</div>
-                        <div class="hello-page__text">This resource is designed to record your running, swimming or cycling achievements
-                            Take photos of the area or the race route, share your impressions with friends!</div>
-                            <a href="howtouse.html" class="more__hello-page">how to use</a>
-                            <a href="#start" class="hello-page__scrolldown smoothscroll">
-                                <img src="src/front/icons/header/slide-down.svg" alt="">
-                            </a>
-                    </div>
-                   
-                    <video autoplay muted loop preload="auto" class="hello-page__video">
-                        <source type="video/mp4" src="src/front/video/hero.mp4">
-                    </video>
-                </div>
-                <div class="records" id="start">
-                <!-- RUN 1 -->
-                <div class="run__name">Morning Run</div>
-                <div class="run">
-                    <div class="run__date">
-                        <div class="run__date-date">date:
-                            <p>
-                                18.04.23
-                            </p>
-                        </div>
-                        <div class="vertical-line__run_date"></div>
-                        <div class="run__distance">distance:
-                            <p>
-                                3.2km
-                            </p>
-                        </div>
-                        <div class="vertical-line__run_date"></div>
-                        <div class="run__time">time:
-                            <p>
-                                18m 17s
-                            </p>
-                        </div>
-                    </div>
-                    <!-- swiper -->
-                    <div class="image-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="image-slider__image">
-                                    <img src="src/media/records/run/18.04.2023.jpg" alt="run1">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="image-slider__image">
-                                    <img src="src/media/records/run/18.04.2023-2.jpg" alt="run1">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="image-slider__image">
-                                    <img src="src/media/records/run/18.04.2023-3.jpg" alt="run1">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- swiper -->
-                    <div class="run__about">
-                        <div class="run__place">
-                            place:
-                            <p>
-                                Sumy
-                            </p>
-                        </div>
-                        <div class="run__rate">rate:
-                            <div class="rate-it">
-                                <a href="#" class="rate"></a>
-                                <a href="#" class="unrate"></a>
-                            </div>
-                        </div>
-                        <!-- <div class="run__description">good run, got a charge for the whole day</div> -->
-                    </div>
-                </div>
-                <!-- RUN 1 -->
-            </div>
+        <main class="page__run">
+
         </main>
         <div class="horizontal__line"></div>
         <footer class="footer">
@@ -211,7 +134,6 @@
     </div>
     </div>
 
-    <script src="js/scripts/swiper-bundle.min.js"></script>
     <script type="module" src="js/app.js"></script>
 </body>
 </html>
