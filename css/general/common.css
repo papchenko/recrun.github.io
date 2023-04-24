@@ -156,7 +156,6 @@
   width: 44px;
 }
 .vbr {
-  padding-top: 32px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -169,7 +168,7 @@
 .vbr__img img {
   width: 42px;
 }
-.lct {
+/* .lct {
   padding-top: 26px;
   display: flex;
   flex-direction: row;
@@ -182,20 +181,20 @@
 }
 .lct__img img {
   width: 40px;
-}
-.toggle {
+} */
+/* .toggle {
   --toggle-height: 26px;
   --toggle-bar-color: #707070;
   --toggle-active-color: #00bf23;
   --toggle-handle-color: #ffffff;
-}
-.toggle > input[type="checkbox"] {
+} */
+/* .toggle > input[type="checkbox"] {
   display:none;
-}
-.toggle__bar {
+} */
+/* .toggle__bar {
   display: flex;
   align-items: center;
-  height: 12px; /* default */
+  height: 12px;
   min-height: var(--toggle-height);
   aspect-ratio: 1.75 / 1;
   border-radius: 25% / 50%;
@@ -203,8 +202,8 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-}
-.toggle__handle {
+} */
+/* .toggle__handle {
   display:block;
   height: inherit;
   min-height: var(--toggle-height);
@@ -214,16 +213,16 @@
   background-color: var(--toggle-handle-color);
   box-shadow: 1px 1px 15px -2px rgba(0,0,0,0.75);
   transition: all 0.1s ease-in-out;
-}
-.toggle > input[type="checkbox"]:checked + .toggle__bar {
+} */
+/* .toggle > input[type="checkbox"]:checked + .toggle__bar {
   background-color: 
     var(--toggle-active-color);
-}
-.toggle > input[type="checkbox"]:checked + .toggle__bar > .toggle__handle {
+} */
+/* .toggle > input[type="checkbox"]:checked + .toggle__bar > .toggle__handle {
   box-shadow: 
     -1px 1px 15px -2px rgba(0,0,0,0.75);
   transform: translateX(74%) scale(0.8);
-}
+} */
 .card > h1 {
   padding-bottom:0.8em;
   border-bottom:1px dashed grey;
