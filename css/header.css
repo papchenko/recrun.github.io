@@ -34,7 +34,7 @@
     background-color: var(--color8);
     left: 0;
     padding-bottom: 16px;
-    padding-right: 72px;
+    padding-right: 46px;
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -93,10 +93,13 @@
 }
 
 #burger-menu span::before {
-  content: "mode";
-  font-size: 26px;
+  content: "";
+  /* font-size: 26px; */
   color: #fafafa;
-  margin-top: -9px;
+  margin: -5px 0px 0px 0px;
+  padding: 26px;
+  background: url("../src/front/icons/header/rec.svg") 0 0 no-repeat;
+  background-size: 23px;
 }
 
 #burger-menu.close span:before {
@@ -161,18 +164,4 @@
   display: flex;
   background: url("../src/front/icons/header/friends-mode.svg") 0 0 no-repeat;
   background-size: 21px;
-}
-.location-mode {
-  padding: 24px 0px 0px 20px;
-  margin-top: 17px;
-  display: flex;
-  background: url("../src/front/icons/header/location-mode.svg") 0 0 no-repeat;
-  background-size: 21px;
-}
-.vibro-mode {
-  padding: 27px 0px 0px 22px;
-  margin-top: 17px;
-  display: flex;
-  background: url("../src/front/icons/header/vibro-mode.svg") 0 0 no-repeat;
-  background-size: 24px;
 }

@@ -21,16 +21,10 @@
         <div class="only-mobile">
         <header class="header">
             <div class="header__container">
-                <div class="system-mode" id="clickLink"></div>
-                <a target="_blank" href="https://music.youtube.com/" class="music-mode"></a>
-                <div class="friends-mode tooltip">
+                <div class="system-mode vibro" id="clickLink"></div>
+                <a target="_blank" href="https://music.youtube.com/" class="music-mode vibro"></a>
+                <div class="friends-mode tooltip vibro">
                     <span class="tooltiptext">Function of finding friends is not yet available</span>
-                </div>
-                <div class="location-mode tooltip">
-                    <span class="tooltiptext">Your activity cannot be recorded yet</span>
-                </div>
-                <div class="vibro-mode tooltip">
-                    <span class="tooltiptext">Mobile version of this site automatically use vibration mode</span>
                 </div>
                 <div id="burger-menu">
                     <span></span>
@@ -50,10 +44,11 @@
                         <div class="card">
                             <h1>Settings</h1>
                             <div class="card__content">
-                                <div class="lng">
+                                <div class="lng tooltip vibro">
                                     <p>Language</p>
                                     <a href="#" class="lng__img">
                                         <img src="src/front/icons/header/popup/lang.svg" alt="Language">
+                                        <span class="tooltiptext-popup">Currently only english version available</span>
                                     </a>
                                 </div>
                               <div class="card__list">
@@ -66,6 +61,20 @@
                                   </label>
                                 </div>
                               </div>
+                              <div class="vbr">
+                                <p>Vibro Mode</p>
+                                <a href="#" class="vbr__img tooltip vibro">
+                                    <img src="src/front/icons/header/popup/vibro-mode.svg" alt="VibroMode">
+                                    <span class="tooltiptext-popup">Mobile version of this site automatically use vibration mode</span>
+                                </a>
+                            </div>
+                              <div class="lct tooltip vibro">
+                                <p>Location</p>
+                                <a href="#" class="lct__img">
+                                    <img src="src/front/icons/header/popup/location-mode.svg" alt="LocationMode">
+                                    <span class="tooltiptext-popup">Your activity cannot be recorded yet</span>
+                                </a>
+                            </div>
                             </div>
                           </div>
                     </div>
@@ -77,8 +86,8 @@
         <main class="page__rec">
             <div class="rec__container">
                 <div class="rec__body">
-                    <div class="rec__label">RUN MODE</div>
-                    <div class="rec__text">Press record for startsing recording your run!</div>
+                    <!-- <div class="rec__label">RUN MODE</div> -->
+                    <!-- <div class="rec__text">Press record for startsing recording your run!</div> -->
                     <div class="rec__map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1681979681909!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>

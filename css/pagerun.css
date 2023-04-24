@@ -21,7 +21,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.rec__label {
+/* .rec__label {
   padding: 20px;
   text-align: center;
   color: var(--color8);
@@ -32,8 +32,9 @@
   padding-bottom: 20px;
   text-align: center;
   font-size: 18px;
-}
+} */
 .rec__map {
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;

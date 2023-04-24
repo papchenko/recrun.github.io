@@ -57,6 +57,24 @@
 .tooltip:hover .tooltiptext-rec {
   visibility: visible;
 }
+.tooltiptext-popup {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px 4px;
+  width: 160px;
+  margin-left: -200px;
+  margin-top: 28px;
+  position: absolute;
+  z-index: 11;
+  line-height: 1.25;
+}
+.tooltip:hover .tooltiptext-popup {
+  visibility: visible;
+}
 /* popups */
 #popup {
   display: none;
@@ -137,8 +155,36 @@
 .lng__img img {
   width: 44px;
 }
+.vbr {
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.vbr p {
+  font-size: 26px;
+  color: #333745;
+}
+.vbr__img img {
+  width: 42px;
+}
+.lct {
+  padding-top: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lct p {
+  font-size: 26px;
+  color: #333745;
+}
+.lct__img img {
+  width: 40px;
+}
 .toggle {
-  --toggle-height: 32px;
+  --toggle-height: 26px;
   --toggle-bar-color: #707070;
   --toggle-active-color: #00bf23;
   --toggle-handle-color: #ffffff;
