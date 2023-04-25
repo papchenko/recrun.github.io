@@ -14,7 +14,7 @@ function vibroMobile() {
     if(media.matches) {
       for (let i = 0; i < vibro.length; i++) {
         vibro[i].addEventListener('click', (e) => {
-        navigator.vibrate(20);
+        navigator.vibrate(30);
         });
       }
     }
