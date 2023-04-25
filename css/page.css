@@ -200,4 +200,21 @@
     left: 0;
     border-radius: 14px;
 }
+
+.img-second {
+    /* margin: -10px; */
+    width: 95%;
+}
+.img-third {
+    margin: 0px -18px;
+    width: 85%;
+}
+.img-fourth {
+    margin: 0px -65px;
+    width: 80%;
+}
+.img-other {
+    margin: 0px -124px;
+    width: 75%;
+}
 /* swiper */

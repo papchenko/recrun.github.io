@@ -41,14 +41,14 @@
 }
 .tooltiptext-rec {
   visibility: hidden;
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.616);
   color: #fff;
   font-size: 12px;
   text-align: center;
   border-radius: 8px;
-  padding: 16px 4px;
+  padding: 6px 4px;
   width: 160px;
-  margin-left: -75px;
+  margin-left: -200px;
   margin-top: 34px;
   position: absolute;
   z-index: 11;
