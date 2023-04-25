@@ -92,6 +92,9 @@
     padding-bottom: 80px;
 }
 /* run */
+.run__body:not(:first-child) {
+    padding-top: 80px;
+}
 .run {
     padding-top: 40px;
 }
@@ -141,11 +144,15 @@
     gap: 2px;
 }
 .run__place p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding-top: 5px;
     color: var(--color8);
     text-align: center;
+}
+.run__place span {
+    font-size: 16px;
+    color: var(--color3);
 }
 .run__date-date p {
     font-size: 15px;
