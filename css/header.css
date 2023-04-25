@@ -143,13 +143,13 @@
 }
 #menu p {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 6px;
   line-height: 125%;
   color: #8b9eb7;
 }
 #menu span {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 125%;
   color: var(--color1);
 }
